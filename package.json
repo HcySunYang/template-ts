@@ -1,11 +1,11 @@
 {
-  "name": "project-name",
-  "version": "0.2.2",
+  "name": "better-project-name",
+  "version": "0.2.3",
   "main": "dist/main.js",
   "repository": "repository",
   "author": "HcySunYang <HcySunYang@outlook.com>",
   "license": "MIT",
-  "types": "./dist/project-name.d.ts",
+  "types": "./dist/better-project-name.d.ts",
   "scripts": {
     "dev": "rollup -cw",
     "build": "rollup -c && api-extractor run --local --verbose",
