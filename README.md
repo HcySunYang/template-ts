@@ -38,3 +38,7 @@ Currently it is the basic configuration, you can modify it according to your nee
 - pre-commit hook & lint-staged
 - format on save when using vscode(`prettier`)
 - integrate github action(only work on the `main` branch)
+
+## TODO
+
+- add a script for releasing
