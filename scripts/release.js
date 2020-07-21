@@ -170,7 +170,8 @@ async function publishPackage(version, runIfNotDry) {
     )
     console.log(chalk.green(`Successfully published ${pkgName}@${version}`))
   } catch (e) {
-    if (e.stderr.match(/previously published/)) {
+    console.log(e)
+    if (e.stderr && e.stderr.match(/previously published/)) {
       console.log(chalk.red(`Skipping already published: ${pkgName}`))
     } else {
       throw e
