@@ -37,7 +37,6 @@ Currently it is the basic configuration, you can modify it according to your nee
   - writing dts tests in the `test-dts` folder
 - rollup `dts`(thanks to [api-extractor](https://api-extractor.com/))
 - `yarn commit` for commit
-- `yarn changelog` generate changelog
 - pre-commit hook & lint-staged
 - format on save when using vscode(`prettier`)
 - integrate github action(only work on the `main` branch)
@@ -46,4 +45,5 @@ Currently it is the basic configuration, you can modify it according to your nee
   - `--skipTests` skip tests
   - `--skipBuild` skip build
   - `--preId` specify pre-release preid: `yarn release --preId alpha`
+  - changelog will be automatically generated
   - You can specify the version: `yarn release [version]`
