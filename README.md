@@ -1,5 +1,7 @@
 # ts project template
 
+This project is for own use, changelog is artificial.
+
 ## clone
 
 ```sh
