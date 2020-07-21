@@ -1,6 +1,6 @@
 {
   "name": "better-project-name",
-  "version": "0.2.7",
+  "version": "0.3.0-alpha.0",
   "main": "dist/main.js",
   "repository": "repository",
   "author": "HcySunYang <HcySunYang@outlook.com>",
