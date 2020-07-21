@@ -35,6 +35,7 @@ Currently it is the basic configuration, you can modify it according to your nee
   - write test files in the `tests` folder
   - `((\\.|/)(test|spec))\\.tsx?$`
   - writing dts tests in the `test-dts` folder
+- rollup `dts`(thanks to [api-extractor](https://api-extractor.com/))
 - `yarn commit` for commit
 - `yarn changelog` generate changelog
 - pre-commit hook & lint-staged
