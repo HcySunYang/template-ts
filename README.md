@@ -39,3 +39,8 @@ Currently it is the basic configuration, you can modify it according to your nee
 - format on save when using vscode(`prettier`)
 - integrate github action(only work on the `main` branch)
 - `yarn release` for releasing your package
+  - `--dry` [dry run](https://docs.npmjs.com/cli/publish)
+  - `--skipTests` skip tests
+  - `--skipBuild` skip build
+  - `--preId` specify pre-release preid: `yarn release --preId alpha`
+  - You can specify the version: `yarn release [version]`
