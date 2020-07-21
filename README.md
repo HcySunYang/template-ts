@@ -6,7 +6,7 @@ This project is for own use, changelog is artificial.
 
 ```sh
 git clone https://github.com/HcySunYang/template-ts.git
-git remote rm origin
+rm -rf .git
 git remote add origin {https://github.com/user/repo.git}
 ```
 
