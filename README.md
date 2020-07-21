@@ -37,4 +37,4 @@ Currently it is the basic configuration, you can modify it according to your nee
 - `yarn changelog` generate changelog
 - pre-commit hook & lint-staged
 - format on save when using vscode(`prettier`)
-- integrate github action
+- integrate github action(only work on the `main` branch)
